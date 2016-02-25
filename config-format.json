@@ -1,0 +1,13 @@
+{
+  "aws": {
+    "accessKeyId": "{INPUT AWS.ACCESS.KEY.ID}",
+    "secretAccessKey": "{INPUT AWS.SECRET.ACCESS.KEY}",
+    "region": "{INPUT AWS.REGION}"
+  },
+  "mail": {
+    "from": "frommailaddress@email.com",
+    "to": "tomailaddres@email.com",
+    "cc": "cc@email.com, cc2@email.com",
+    "subject": "{INPUT Subject}"
+  }
+}
